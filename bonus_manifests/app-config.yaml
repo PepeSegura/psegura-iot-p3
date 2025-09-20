@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: http://localhost:8082/root/psegura-bonus-iot.git
+    repoURL: http://gitlab.gitlab.svc.cluster.local:8082/root/psegura-bonus-iot.git
     targetRevision: HEAD
     path: bonus_manifests/
   syncPolicy:
