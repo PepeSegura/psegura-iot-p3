@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: http://localhost:8082/root/psegura-bonus-iot.git
     targetRevision: HEAD
-    path: bonus/confs
+    path: bonus_manifests/
   syncPolicy:
     automated:
       prune: true
