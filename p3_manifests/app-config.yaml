@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/pepesegura/iot-p3
     targetRevision: HEAD
-    path: manifests/
+    path: p3_manifests/
   syncPolicy:
     automated:
       prune: true
